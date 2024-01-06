@@ -33,7 +33,7 @@ fetch('2023_worldwide_box_office_data.csv')
 
             // Set the layout
             const layout = {
-              xaxis: { title: 'Rank' },
+              xaxis: { title: 'Rank', dtick: 1 },
               yaxis: { title: 'Billion USD' },
               legend: { title: '' },
               title: '2023 Worldwide Box Office',
