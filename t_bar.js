@@ -40,8 +40,8 @@ fetch('2023_worldwide_box_office_data.csv')
               hovermode: 'closest',
               template: 'plotly_white',
               barmode: 'stack', // Stacked bar chart
-              width: 2400,
-              height: 450
+              width: 2500,
+              height: 500
             };
 
             // Render the chart
