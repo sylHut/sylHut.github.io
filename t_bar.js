@@ -39,7 +39,9 @@ fetch('2023_worldwide_box_office_data.csv')
               title: '2023 Worldwide Box Office',
               hovermode: 'closest',
               template: 'plotly_white',
-              barmode: 'stack' // Stacked bar chart
+              barmode: 'stack', // Stacked bar chart
+              width: 2400,
+              height: 450
             };
 
             // Render the chart
